@@ -39,7 +39,7 @@ st.sidebar.write("Enter size of dataset to generate. Limit 100,000 rows and 15 c
 # User inputs
 st.sidebar.subheader('Data Size')
 num_rows = st.sidebar.number_input('Number of rows', min_value=1, value=10, max_value=100000)
-num_cols = st.sidebar.number_input('Number of columns', min_value=1, value=3,max_value=15)
+num_cols = st.sidebar.number_input('Number of columns', min_value=1, value=3,max_value=18)
 
 st.subheader('Data Specification')
 st.write('Specify the solumn names, values and relevant parameters as per below and click generate to get a lovely slug of random data.')
